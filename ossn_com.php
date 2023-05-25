@@ -40,11 +40,7 @@ if(!ossn_isLoggedin()) {
 		}
 
 
-		switch($pages[0]) {
-
-				case 'speedtest':
-
-						$guid                = $pages;
+	{
 
 						$title               = ossn_print('com:ossn:speedtest');
 						
