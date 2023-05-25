@@ -50,8 +50,6 @@ if(!ossn_isLoggedin()) {
 						
 						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
 
-								'speedtest' => $guid
-
 						));
 
 						$content             = ossn_set_page_layout('newsfeed', $contents);
