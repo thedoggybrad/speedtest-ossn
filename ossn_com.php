@@ -2,7 +2,7 @@
 /**
  *    OpenSource-SocialNetwork
  *
- * @package   Speedtest for OSSN
+ * @package   Speedtest
  * @author    TheDoggyBrad <admin@gosocial.x10.bz>
  * @copyright 2023 TheDoggyBrad
  * @license   OSSN License v4

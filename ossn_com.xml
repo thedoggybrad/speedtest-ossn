@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component xmlns="http://www.opensource-socialnetwork.org/v/3.0">
-    <name>Speedtest for OSSN</name>
+    <name>Speedtest</name>
     <id>speedtest</id>
     <author>TheDoggyBrad</author>
     <description>Offer speedtest to your users, powered by OpenSpeedTest</description>
