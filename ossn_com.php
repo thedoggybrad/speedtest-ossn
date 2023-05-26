@@ -11,22 +11,12 @@
 define('__speedtest__', ossn_route()->com . 'speedtest/');
 
 function speedtest_init() {
-	ossn_register_page('speedtest', 'speedtest_pages');
-	  if (ossn_isLoggedin()) {       
+	ossn_register_page('speedtest', 'speedtest_pages');    
 		
 		ossn_extend_view('css/ossn.default', 'css/speedtest');
+		  
 		
-		  
-		 				$title               = ossn_print('com:ossn:speedtest');
-						
-						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
-
-						));
-
-						$content             = ossn_set_page_layout('newsfeed', $contents);
-
-						echo ossn_view_page($title, $content); 
-		  
+	if (ossn_isLoggedin()) {   
 		
 				ossn_register_sections_menu('newsfeed', array(
 
@@ -39,6 +29,15 @@ function speedtest_init() {
 						'section' => 'links',
 
 				));
+		  		 		$title               = ossn_print('com:ossn:speedtest');
+						
+						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
+
+						));
+
+						$content             = ossn_set_page_layout('newsfeed', $contents);
+
+						echo ossn_view_page($title, $content); 
 				
 					
     }			
