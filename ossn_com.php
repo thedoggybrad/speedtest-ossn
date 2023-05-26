@@ -23,7 +23,7 @@ function speedtest_init() {
 
 						'text' => ossn_print('com:ossn:speedtest'),
 
-						'url' => ossn_site_url('speedtest/speedtest'),
+						'url' => ossn_site_url('speedtest'),
 
 						'section' => 'links',
 
