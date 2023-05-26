@@ -16,7 +16,7 @@ function speedtest_init() {
 		
 		ossn_extend_view('css/ossn.default', 'css/speedtest');
         
-             ossn_register_page('speedtest', 'speedtest_pages');
+                     ossn_register_page('speedtest', 'speedtest_pages');
 		
 				ossn_register_sections_menu('newsfeed', array(
 
