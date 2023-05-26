@@ -13,7 +13,7 @@
     </button> 
     <script> 
         function NewTab() { 
-            window.open("https://openspeedtest.com")
+            window.open("components/speedtest/plugins/default/pages/index.html")
         } 
     </script>
 </body>
