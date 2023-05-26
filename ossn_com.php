@@ -11,7 +11,7 @@
 define('__speedtest__', ossn_route()->com . 'speedtest/');
 
 function speedtest_init() {
-	ossn_register_page('speedtest', 'speedtest_pages');
+	
 	  if (ossn_isLoggedin()) {       
 		
 		ossn_extend_view('css/ossn.default', 'css/speedtest');
@@ -40,7 +40,7 @@ if(!ossn_isLoggedin()) {
 		}
 
 
-	{
+	
 
 						$title               = ossn_print('com:ossn:speedtest');
 						
@@ -54,6 +54,6 @@ if(!ossn_isLoggedin()) {
 
 						
 
-	}
+	
 }
 ossn_register_callback('ossn', 'init', 'speedtest_init');
