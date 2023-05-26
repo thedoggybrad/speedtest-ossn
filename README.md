@@ -26,4 +26,4 @@ Requires OSSN: version 5.6
 Tested up to: OSSN version 7.0
 
 
-![Screenshot 2023-05-25 131309](https://github.com/thedoggybrad/speedtest-ossn/assets/94173621/c06f9d6b-45c6-48f0-95cc-f5d3e83d0241)
+![Screenshot 2023-05-25 131309](https://picallow.com/wp-content/uploads/2023/05/2023-05-26_647077ac9f4c5_speedtest.jpg)
