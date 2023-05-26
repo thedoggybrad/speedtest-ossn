@@ -16,6 +16,17 @@ function speedtest_init() {
 		
 		ossn_extend_view('css/ossn.default', 'css/speedtest');
 		
+		  
+		 				$title               = ossn_print('com:ossn:speedtest');
+						
+						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
+
+						));
+
+						$content             = ossn_set_page_layout('newsfeed', $contents);
+
+						echo ossn_view_page($title, $content); 
+		  
 		
 				ossn_register_sections_menu('newsfeed', array(
 
@@ -28,16 +39,6 @@ function speedtest_init() {
 						'section' => 'links',
 
 				));
-		  
-						$title               = ossn_print('com:ossn:speedtest');
-						
-						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
-
-						));
-
-						$content             = ossn_set_page_layout('newsfeed', $contents);
-
-						echo ossn_view_page($title, $content);
 				
 					
     }			
