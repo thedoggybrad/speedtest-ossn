@@ -28,20 +28,7 @@ function speedtest_init() {
 						'section' => 'links',
 
 				));
-				
-					
-    }
-}
-function speedtest_pages($pages) {
-
-if(!ossn_isLoggedin()) {
-
-				ossn_error_page();
-		}
-
-
-	
-
+		  
 						$title               = ossn_print('com:ossn:speedtest');
 						
 						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
@@ -51,9 +38,9 @@ if(!ossn_isLoggedin()) {
 						$content             = ossn_set_page_layout('newsfeed', $contents);
 
 						echo ossn_view_page($title, $content);
-
-						
-
+				
+					
+    }			
 	
 }
 ossn_register_callback('ossn', 'init', 'speedtest_init');
