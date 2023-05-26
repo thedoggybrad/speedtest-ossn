@@ -11,12 +11,12 @@
 define('__speedtest__', ossn_route()->com . 'speedtest/');
 
 function speedtest_init() {
-	ossn_register_page('speedtest', 'speedtest_pages');    
-		
-		ossn_extend_view('css/ossn.default', 'css/speedtest');
-		  
-		
+	
 	if (ossn_isLoggedin()) {   
+	
+		ossn_extend_view('css/ossn.default', 'css/speedtest');
+		
+		     ossn_register_page('speedtest', 'speedtest_pages');    
 		
 				ossn_register_sections_menu('newsfeed', array(
 
