@@ -2,37 +2,32 @@
 /**
  *    OpenSource-SocialNetwork
  *
- * @package   Speedtest
- * @author    TheDoggyBrad <admin@gosocial.x10.bz>
- * @copyright 2023 TheDoggyBrad
- * @license   OSSN License v4
- * @link      https://www.opensource-socialnetwork.org/licence/v4.0.html
  */
-define('__speedtest__', ossn_route()->com . 'speedtest/');
+define('__twozerofoureight__', ossn_route()->com . 'twozerofoureight/');
 
-function speedtest_init() {
-	ossn_register_page('speedtest', 'speedtest_pages');
+function twozerofoureight_init() {
+	ossn_register_page('twozerofoureight', 'twozerofoureight_pages');
 	  if (ossn_isLoggedin()) {       
 		
-		ossn_extend_view('css/ossn.default', 'css/speedtest');
+		ossn_extend_view('css/ossn.default', 'css/twozerofoureight');
 		
 		
 				ossn_register_sections_menu('newsfeed', array(
 
-						'name' => 'speedtest',
+						'name' => 'twozerofoureight',
 
-						'text' => ossn_print('com:ossn:speedtest'),
+						'text' => ossn_print('com:ossn:twozerofoureight'),
 
-						'url' => ossn_site_url('speedtest/speedtest'),
+						'url' => ossn_site_url('twozerofoureight/twozerofoureight'),
 
-						'section' => 'links',
+						'section' => 'games',
 
 				));
 				
 					
     }
 }
-function speedtest_pages($pages) {
+function twozerofoureight_pages($pages) {
 
 if(!ossn_isLoggedin()) {
 
@@ -42,9 +37,9 @@ if(!ossn_isLoggedin()) {
 
 	{
 
-						$title               = ossn_print('com:ossn:speedtest');
+						$title               = ossn_print('com:ossn:twozerofoureight');
 						
-						$contents['content'] = ossn_plugin_view('pages/speedtest', array(
+						$contents['content'] = ossn_plugin_view('pages/twozerofoureight', array(
 
 						));
 
@@ -56,4 +51,4 @@ if(!ossn_isLoggedin()) {
 
 	}
 }
-ossn_register_callback('ossn', 'init', 'speedtest_init');
+ossn_register_callback('ossn', 'init', 'twozerofoureight_init');
