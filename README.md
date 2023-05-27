@@ -26,4 +26,4 @@ Requires OSSN: version 5.6
 Tested up to: OSSN version 7.0
 
 
-![Screenshot 2023-05-25 131309](https://picallow.com/wp-content/uploads/2023/05/2023-05-26_647077ac9f4c5_speedtest.jpg)
+![Speedtest v1.6](https://picallow.com/wp-content/uploads/2023/05/2023-05-27_647184436eb50_screencap.png)
