@@ -6,7 +6,7 @@
 
  *
 
- * @package   Speedtest for OSSN
+ * @package   OpenSpeedtest for OSSN
 
  * @author    TheDoggyBrad <admin@gosocial.x10.bz>
 
@@ -20,7 +20,7 @@
 
 $en = array(
 
-	'com:ossn:speedtest' => 'OpenSpeedTest',
+	'com:ossn:openspeedtest' => 'OpenSpeedTest',
 );
 ossn_register_languages('en', $en); 
 
