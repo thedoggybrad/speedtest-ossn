@@ -7,7 +7,7 @@ https://www.opensource-socialnetwork.org/u/arsalanshah
 https://www.opensource-socialnetwork.org/u/zetman
 
 ## Download Link (ZIP to install)
-https://github.com/thedoggybrad/speedtest-ossn/releases/download/1.7/speedtest.zip
+https://github.com/thedoggybrad/speedtest-ossn/releases/download/1.8/speedtest.zip
 
 ## Info
 Name: Speedtest
@@ -24,7 +24,7 @@ Author URL: https://github.com/thedoggybrad/
 <br>
 License URL: https://www.opensource-socialnetwork.org/licence/v4.0.html
 <br>
-Latest Version: 1.7
+Latest Version: 1.8
 <br>
 Requires OSSN: version 5.6
 <br>
