@@ -1,1 +1,0 @@
-<!--OST Widget code start--><iframe style="border:none;position:relative;top:0;left:0;right:0;bottom:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="//openspeedtest.com/speedtest"></iframe><div style="text-align:right;">Provided by <a href="https://openspeedtest.com">OpenSpeedtest.com</a></div><!-- OST Widget code end -->
