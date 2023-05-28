@@ -5,9 +5,9 @@
 https://github.com/thedoggybrad/speedtest-ossn/releases/download/1.7/speedtest.zip
 
 ## Info
-Name: Speedtest
+Name: OpenSpeedtest
 <br>
-ID: speedtest
+ID: openspeedtest
 <br>
 Author: TheDoggyBrad
 <br>
