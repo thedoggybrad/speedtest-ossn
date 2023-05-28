@@ -1,5 +1,5 @@
 <component xmlns="http://www.opensource-socialnetwork.org/v/3.0">
-<name>Speedtest</name>
+<name>Open Speedtest</name>
 <id>openspeedtest</id>
 <author>TheDoggyBrad</author>
 <description>Offer speedtest to your users, powered by OpenSpeedTest</description>
