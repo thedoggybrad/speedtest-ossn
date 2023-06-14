@@ -1,13 +1,17 @@
 # Speedtest for OSSN
 {{OSSN COMPONENTS}} Offer speedtest to your users, powered by OpenSpeedTest.
 
+
+<br>
+<div align="center">
+<a href="https://github.com/thedoggybrad/speedtest-ossn/releases/download/1.8/speedtest.zip">
+         <img src="https://raw.githubusercontent.com/thedoggybrad/thedoggybrad/main/download.png" width="200">
+    </a></div>
+
 ## Very Special Thanks to
 https://www.opensource-socialnetwork.org/u/arsalanshah
 <br>
 https://www.opensource-socialnetwork.org/u/zetman
-
-## Download Link (ZIP to install)
-https://github.com/thedoggybrad/speedtest-ossn/releases/download/1.8/speedtest.zip
 
 ## Info
 Name: Speedtest
